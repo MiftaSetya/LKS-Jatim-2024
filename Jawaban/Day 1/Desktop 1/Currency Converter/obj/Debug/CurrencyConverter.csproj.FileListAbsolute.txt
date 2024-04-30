@@ -1,0 +1,15 @@
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\CurrencyConverter.exe.config
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\CurrencyConverter.exe
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\CurrencyConverter.pdb
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\EntityFramework.dll
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\EntityFramework.xml
+C:\Latihan LKS\C#\Project\CurrencyConverter\bin\Debug\EntityFramework.SqlServer.xml
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.AssemblyReference.cache
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.Properties.Resources.resources
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.GenerateResource.cache
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.CoreCompileInputs.cache
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.CopyComplete
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.exe
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.pdb
+C:\Latihan LKS\C#\Project\CurrencyConverter\obj\Debug\CurrencyConverter.Converter.resources

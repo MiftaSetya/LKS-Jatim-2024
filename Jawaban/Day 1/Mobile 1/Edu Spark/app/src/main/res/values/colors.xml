@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="SparkBlack">#FF000000</color>
+    <color name="SparkWhite">#FFFFFFFF</color>
+    <color name="SparkBlue">#3D5AFE </color>
+    <color name="SparkGray">#969696</color>
+    <color name="SparkLightGray">#C8C8C8</color>
+</resources>

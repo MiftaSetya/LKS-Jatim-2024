@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="GeegyBlack">#FF000000</color>
+    <color name="GeegyWhite">#FFFFFFFF</color>
+    <color name="GeegyPink">#F13A7C</color>
+    <color name="GeegyRed">#E53935</color>
+    <color name="GeegyLightRed">#FFB0AE</color>
+    <color name="GeegyGray">#969696</color>
+    <color name="GeegyLightGray">#C8C8C8</color>
+</resources>

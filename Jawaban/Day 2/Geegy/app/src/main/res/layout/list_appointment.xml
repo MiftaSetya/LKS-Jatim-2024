@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+    android:padding="17dp"
+    android:background="@drawable/bg_list_appointment">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/GeegyBlack"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/dateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/GeegyBlack"
+            android:textSize="13dp"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/baseline_calendar_month_24"
+            android:drawablePadding="8dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dobTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        android:textColor="@color/GeegyGray"
+        android:textSize="13dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problem:"
+        android:textColor="@color/GeegyBlack"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/problemTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loro untu"
+            android:textColor="@color/GeegyBlack"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/cancelledTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelled"
+            android:textStyle="bold"
+            android:textColor="@color/GeegyRed"
+            android:textSize="15dp"
+            android:background="@drawable/bg_cancelled"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

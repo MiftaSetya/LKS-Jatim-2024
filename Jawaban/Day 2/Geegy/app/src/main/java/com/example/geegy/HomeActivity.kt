@@ -22,9 +22,14 @@ import org.json.JSONArray
 import java.net.URL
 
 class HomeActivity : AppCompatActivity() {
+    lateinit var binding : ActivityHomeBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         class AppointmentViewHolder(val binding: ListAppointmentBinding) : RecyclerView.ViewHolder(binding.root)
         class AppointmentAdapter(val appoinments : JSONArray) : RecyclerView.Adapter<AppointmentViewHolder>() {
+            var SuccessAppointment = 0
+            var CancelledAppointment = 0
+
             override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AppointmentViewHolder {
                 val binding = ListAppointmentBinding.inflate(LayoutInflater.from(parent.context), parent, false)
                 return AppointmentViewHolder(binding)
@@ -49,10 +54,15 @@ class HomeActivity : AppCompatActivity() {
                 var cancelled = item.getBoolean("iscancelled")
                 if (cancelled) {
                     holder.binding.cancelledTV.visibility = View.VISIBLE
+                    CancelledAppointment++
                 }
                 else {
                     holder.binding.cancelledTV.visibility = View.GONE
+                    SuccessAppointment++
                 }
+
+                binding.successTV.text = "Success Appointment: $SuccessAppointment"
+                binding.cancelledTV.text = "Cancelled Appointment: $CancelledAppointment"
 
                 holder.itemView.setOnClickListener {
                     val intent = Intent(this@HomeActivity, DetailActivity::class.java).apply {
@@ -66,7 +76,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        var binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
